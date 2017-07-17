@@ -1,0 +1,5 @@
+To dump the memory in gdb:
+set height 0    # prevent GDB from stopping every screenfull
+set logging on  # GDB output is now also copied into gdb.txt
+x/10000000s 0x20000000
+quit
